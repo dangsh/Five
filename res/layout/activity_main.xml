@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <ImageButton android:id="@+id/wuxian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="50dp"
+                 android:src="@drawable/xian"/>
+    
+    <ImageButton android:id="@+id/sijian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian4"/>
+    <ImageButton android:id="@+id/sixian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian"/>
+    
+    <ImageButton android:id="@+id/sanjian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian4"/>
+    <ImageButton android:id="@+id/sanxian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian"/>
+    
+    <ImageButton android:id="@+id/erjian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian4"/>
+    <ImageButton android:id="@+id/erxian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian"/>
+    
+    <ImageButton android:id="@+id/yijian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian4"/>
+    <ImageButton android:id="@+id/yixian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian"/>
+    
+    <ImageButton android:id="@+id/xiayijian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian4"/>
+    <ImageButton android:id="@+id/xiayixian"
+                 android:layout_width="wrap_content"
+                 android:layout_height="4dp"
+                 android:layout_marginTop="3dp"
+                 android:src="@drawable/xian3"/>
+    <Button android:id="@+id/btn1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="开始录制">
+        
+    </Button>
+    <Button android:id="@+id/btn2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开始播放">
+        
+    </Button>
+
+</LinearLayout>
